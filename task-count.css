@@ -1,0 +1,16 @@
+.task-count {
+    background-color: #32e6d769;
+    width: 30vmin;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 3vmin;
+    padding: 1vmin;
+    font-size: 3vmin;
+  }
+  .task-count {
+    font-weight: 600;
+  }
+  .task-count span {
+    font-weight: 700;
+  }
+  

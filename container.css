@@ -1,0 +1,15 @@
+.container {
+    min-height: 50vmin;
+    background: #ffffff63;
+    width: 80%;
+    border-radius: 3vmin;
+    padding: 4vmin 6vmin;
+    box-shadow: 0 0 3vmin rgba(0, 0, 0, 0.5);
+  }
+  .container header {
+    font-size: 4vmin;
+    font-weight: 700;
+    text-align: center;
+    width: 100%;
+  
+  }

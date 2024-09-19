@@ -1,0 +1,65 @@
+.todo-content .add-btn {
+    position: absolute;
+    top: 0vmin;
+    right: 0vmin;
+    height: 10vmin;
+    border: 1px solid #41a1f4;
+    font-size: 3vmin;
+    border-top-right-radius: 1vmin;
+    border-bottom-right-radius: 1vmin;
+    width: 17vmin;
+    background-color: #41a1f4;
+    color: #fff;
+    font-weight: 700;
+    transition: all 0.2s ease;
+    cursor: pointer;
+  }
+  .add-btn:hover {
+    background-color: #3292e6;
+  }
+  .add-btn:active {
+    background-color: #3292e6a9;
+  }
+  .btns {
+    display: flex;
+    gap: 1.5vmin;
+  }
+  
+  .btns button:nth-child(2) {
+    background-color: rgb(66, 109, 3);
+    width: 15vmin;
+  }
+  .task .del {
+    height: 8vmin;
+    font-size: 3vmin;
+    border: none;
+    width: 15vmin;
+    background-color: #dc3507;
+    color: #fff;
+    font-weight: 700;
+    transition: all 0.2s ease;
+    cursor: pointer;
+  }
+  .btns .done{
+    height: 8vmin;
+    font-size: 3vmin;
+    border: none;
+    width: 15vmin;
+    color: #fff;
+    font-weight: 700;
+    transition: all 0.2s ease;
+    cursor: pointer;
+  }
+  .btns .done:hover{
+    background-color: rgba(3, 135, 3, 0.822);
+  }
+  .btns .done:active{
+    opacity: 0.7;
+  }
+  .del:hover {
+    background-color: #c32f06;
+  }
+  .del:active {
+    opacity: 0.7;
+  }
+  
